@@ -1,0 +1,971 @@
+{
+ "cases": [
+  {
+   "fn": "boxes",
+   "args": [
+    "345",
+    "25"
+   ],
+   "expect": "The 345 shirts at 25 shirts a box take 14 boxes, the last box holding 20 shirts."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "345",
+    "45"
+   ],
+   "expect": "The 345 shirts at 45 shirts a week last 7 full weeks with 30 shirts left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "14",
+    "118.75",
+    "345"
+   ],
+   "expect": "The 14 boxes at $118.75 a box come to $1662.50, $4.82 a shirt."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "345",
+    "6"
+   ],
+   "expect": "The 345 shirts at 6 shirts a minute take 58 minutes, 0 hours 58 minutes."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 shirt at 1 shirt a box takes 1 box, the last box holding 1 shirt."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "325",
+    "25"
+   ],
+   "expect": "The 325 shirts at 25 shirts a box take 13 boxes, the last box holding 25 shirts."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "1000000",
+    "1000"
+   ],
+   "expect": "The 1000000 shirts at 1000 shirts a box take 1000 boxes, the last box holding 1000 shirts."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 shirt at 1 shirt a week lasts 1 full week with 0 shirts left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "315",
+    "45"
+   ],
+   "expect": "The 315 shirts at 45 shirts a week last 7 full weeks with 0 shirts left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1000000",
+    "100000"
+   ],
+   "expect": "The 1000000 shirts at 100000 shirts a week last 10 full weeks with 0 shirts left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1",
+    "0.01",
+    "1"
+   ],
+   "expect": "The 1 box at $0.01 a box comes to $0.01, $0.01 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "100000",
+    "999.99",
+    "1000000"
+   ],
+   "expect": "The 100000 boxes at $999.99 a box come to $99999000.00, $100.00 a shirt."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 shirt at 1 shirt a minute takes 1 minute, 0 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "60",
+    "1"
+   ],
+   "expect": "The 60 shirts at 1 shirt a minute take 60 minutes, 1 hour 0 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1000000",
+    "100"
+   ],
+   "expect": "The 1000000 shirts at 100 shirts a minute take 10000 minutes, 166 hours 40 minutes."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "576199",
+    "612"
+   ],
+   "expect": "The 576199 shirts at 612 shirts a box take 942 boxes, the last box holding 307 shirts."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "914630",
+    "221"
+   ],
+   "expect": "The 914630 shirts at 221 shirts a box take 4139 boxes, the last box holding 132 shirts."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "205390",
+    "465"
+   ],
+   "expect": "The 205390 shirts at 465 shirts a box take 442 boxes, the last box holding 325 shirts."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "423209",
+    "273"
+   ],
+   "expect": "The 423209 shirts at 273 shirts a box take 1551 boxes, the last box holding 59 shirts."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "773064",
+    "205"
+   ],
+   "expect": "The 773064 shirts at 205 shirts a box take 3772 boxes, the last box holding 9 shirts."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "113845",
+    "580"
+   ],
+   "expect": "The 113845 shirts at 580 shirts a box take 197 boxes, the last box holding 165 shirts."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "914720",
+    "636"
+   ],
+   "expect": "The 914720 shirts at 636 shirts a box take 1439 boxes, the last box holding 152 shirts."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "836177",
+    "822"
+   ],
+   "expect": "The 836177 shirts at 822 shirts a box take 1018 boxes, the last box holding 203 shirts."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "748670",
+    "106"
+   ],
+   "expect": "The 748670 shirts at 106 shirts a box take 7063 boxes, the last box holding 98 shirts."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "576848",
+    "175"
+   ],
+   "expect": "The 576848 shirts at 175 shirts a box take 3297 boxes, the last box holding 48 shirts."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "76350",
+    "654"
+   ],
+   "expect": "The 76350 shirts at 654 shirts a box take 117 boxes, the last box holding 486 shirts."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "869795",
+    "855"
+   ],
+   "expect": "The 869795 shirts at 855 shirts a box take 1018 boxes, the last box holding 260 shirts."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "679581",
+    "252"
+   ],
+   "expect": "The 679581 shirts at 252 shirts a box take 2697 boxes, the last box holding 189 shirts."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "864553",
+    "133"
+   ],
+   "expect": "The 864553 shirts at 133 shirts a box take 6501 boxes, the last box holding 53 shirts."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "994326",
+    "482"
+   ],
+   "expect": "The 994326 shirts at 482 shirts a box take 2063 boxes, the last box holding 442 shirts."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "316772",
+    "906"
+   ],
+   "expect": "The 316772 shirts at 906 shirts a box take 350 boxes, the last box holding 578 shirts."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "221510",
+    "270"
+   ],
+   "expect": "The 221510 shirts at 270 shirts a box take 821 boxes, the last box holding 110 shirts."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "464919",
+    "419"
+   ],
+   "expect": "The 464919 shirts at 419 shirts a box take 1110 boxes, the last box holding 248 shirts."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "182601",
+    "746"
+   ],
+   "expect": "The 182601 shirts at 746 shirts a box take 245 boxes, the last box holding 577 shirts."
+  },
+  {
+   "fn": "boxes",
+   "args": [
+    "180666",
+    "84"
+   ],
+   "expect": "The 180666 shirts at 84 shirts a box take 2151 boxes, the last box holding 66 shirts."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "507900",
+    "69644"
+   ],
+   "expect": "The 507900 shirts at 69644 shirts a week last 7 full weeks with 20392 shirts left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "972853",
+    "36370"
+   ],
+   "expect": "The 972853 shirts at 36370 shirts a week last 26 full weeks with 27233 shirts left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "50713",
+    "4030"
+   ],
+   "expect": "The 50713 shirts at 4030 shirts a week last 12 full weeks with 2353 shirts left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "422826",
+    "29376"
+   ],
+   "expect": "The 422826 shirts at 29376 shirts a week last 14 full weeks with 11562 shirts left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "5260",
+    "91596"
+   ],
+   "expect": "The 5260 shirts at 91596 shirts a week last 0 full weeks with 5260 shirts left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "565169",
+    "59604"
+   ],
+   "expect": "The 565169 shirts at 59604 shirts a week last 9 full weeks with 28733 shirts left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "516077",
+    "73155"
+   ],
+   "expect": "The 516077 shirts at 73155 shirts a week last 7 full weeks with 3992 shirts left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "277907",
+    "60345"
+   ],
+   "expect": "The 277907 shirts at 60345 shirts a week last 4 full weeks with 36527 shirts left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "362939",
+    "47383"
+   ],
+   "expect": "The 362939 shirts at 47383 shirts a week last 7 full weeks with 31258 shirts left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "816188",
+    "73557"
+   ],
+   "expect": "The 816188 shirts at 73557 shirts a week last 11 full weeks with 7061 shirts left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "230226",
+    "84200"
+   ],
+   "expect": "The 230226 shirts at 84200 shirts a week last 2 full weeks with 61826 shirts left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "582449",
+    "98712"
+   ],
+   "expect": "The 582449 shirts at 98712 shirts a week last 5 full weeks with 88889 shirts left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "410394",
+    "65745"
+   ],
+   "expect": "The 410394 shirts at 65745 shirts a week last 6 full weeks with 15924 shirts left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "692678",
+    "13600"
+   ],
+   "expect": "The 692678 shirts at 13600 shirts a week last 50 full weeks with 12678 shirts left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "969212",
+    "69469"
+   ],
+   "expect": "The 969212 shirts at 69469 shirts a week last 13 full weeks with 66115 shirts left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "951737",
+    "74425"
+   ],
+   "expect": "The 951737 shirts at 74425 shirts a week last 12 full weeks with 58637 shirts left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "638078",
+    "28064"
+   ],
+   "expect": "The 638078 shirts at 28064 shirts a week last 22 full weeks with 20670 shirts left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "485021",
+    "23644"
+   ],
+   "expect": "The 485021 shirts at 23644 shirts a week last 20 full weeks with 12141 shirts left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "675149",
+    "78548"
+   ],
+   "expect": "The 675149 shirts at 78548 shirts a week last 8 full weeks with 46765 shirts left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "784234",
+    "43872"
+   ],
+   "expect": "The 784234 shirts at 43872 shirts a week last 17 full weeks with 38410 shirts left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "70868",
+    "480.1",
+    "788260"
+   ],
+   "expect": "The 70868 boxes at $480.10 a box come to $34023726.80, $43.16 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "68188",
+    "155.57",
+    "425129"
+   ],
+   "expect": "The 68188 boxes at $155.57 a box come to $10608007.16, $24.95 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "61990",
+    "445.25",
+    "508671"
+   ],
+   "expect": "The 61990 boxes at $445.25 a box come to $27601047.50, $54.26 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "61553",
+    "863.9",
+    "587549"
+   ],
+   "expect": "The 61553 boxes at $863.90 a box come to $53175636.70, $90.50 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "53943",
+    "811.14",
+    "907781"
+   ],
+   "expect": "The 53943 boxes at $811.14 a box come to $43755325.02, $48.20 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "51742",
+    "694.48",
+    "975116"
+   ],
+   "expect": "The 51742 boxes at $694.48 a box come to $35933784.16, $36.85 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "2405",
+    "172.95",
+    "800663"
+   ],
+   "expect": "The 2405 boxes at $172.95 a box come to $415944.75, $0.52 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "65862",
+    "723.54",
+    "151372"
+   ],
+   "expect": "The 65862 boxes at $723.54 a box come to $47653791.48, $314.81 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "86674",
+    "51.31",
+    "399883"
+   ],
+   "expect": "The 86674 boxes at $51.31 a box come to $4447242.94, $11.12 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "3310",
+    "875.02",
+    "951016"
+   ],
+   "expect": "The 3310 boxes at $875.02 a box come to $2896316.20, $3.05 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "79631",
+    "489.63",
+    "307880"
+   ],
+   "expect": "The 79631 boxes at $489.63 a box come to $38989726.53, $126.64 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "95998",
+    "406.44",
+    "358310"
+   ],
+   "expect": "The 95998 boxes at $406.44 a box come to $39017427.12, $108.89 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "96104",
+    "287.7",
+    "633393"
+   ],
+   "expect": "The 96104 boxes at $287.70 a box come to $27649120.80, $43.65 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "24167",
+    "434.94",
+    "958310"
+   ],
+   "expect": "The 24167 boxes at $434.94 a box come to $10511194.98, $10.97 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "21697",
+    "464.47",
+    "233962"
+   ],
+   "expect": "The 21697 boxes at $464.47 a box come to $10077605.59, $43.07 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "57004",
+    "923.24",
+    "998516"
+   ],
+   "expect": "The 57004 boxes at $923.24 a box come to $52628372.96, $52.71 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "67059",
+    "157.28",
+    "737698"
+   ],
+   "expect": "The 67059 boxes at $157.28 a box come to $10547039.52, $14.30 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "39862",
+    "788.86",
+    "498050"
+   ],
+   "expect": "The 39862 boxes at $788.86 a box come to $31445537.32, $63.14 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "5626",
+    "725",
+    "446747"
+   ],
+   "expect": "The 5626 boxes at $725.00 a box come to $4078850.00, $9.13 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "66659",
+    "732.72",
+    "978914"
+   ],
+   "expect": "The 66659 boxes at $732.72 a box come to $48842382.48, $49.89 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "49234",
+    "408.33",
+    "403306"
+   ],
+   "expect": "The 49234 boxes at $408.33 a box come to $20103719.22, $49.85 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "54848",
+    "274",
+    "419367"
+   ],
+   "expect": "The 54848 boxes at $274.00 a box come to $15028352.00, $35.84 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "20074",
+    "833.69",
+    "594114"
+   ],
+   "expect": "The 20074 boxes at $833.69 a box come to $16735493.06, $28.17 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "64180",
+    "858.39",
+    "163540"
+   ],
+   "expect": "The 64180 boxes at $858.39 a box come to $55091470.20, $336.87 a shirt."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "50160",
+    "702.1",
+    "300767"
+   ],
+   "expect": "The 50160 boxes at $702.10 a box come to $35217336.00, $117.09 a shirt."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "353179",
+    "49"
+   ],
+   "expect": "The 353179 shirts at 49 shirts a minute take 7208 minutes, 120 hours 8 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "489204",
+    "64"
+   ],
+   "expect": "The 489204 shirts at 64 shirts a minute take 7644 minutes, 127 hours 24 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "989314",
+    "38"
+   ],
+   "expect": "The 989314 shirts at 38 shirts a minute take 26035 minutes, 433 hours 55 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "564845",
+    "6"
+   ],
+   "expect": "The 564845 shirts at 6 shirts a minute take 94141 minutes, 1569 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "630736",
+    "90"
+   ],
+   "expect": "The 630736 shirts at 90 shirts a minute take 7009 minutes, 116 hours 49 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "154422",
+    "71"
+   ],
+   "expect": "The 154422 shirts at 71 shirts a minute take 2175 minutes, 36 hours 15 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "758965",
+    "35"
+   ],
+   "expect": "The 758965 shirts at 35 shirts a minute take 21685 minutes, 361 hours 25 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "829622",
+    "12"
+   ],
+   "expect": "The 829622 shirts at 12 shirts a minute take 69136 minutes, 1152 hours 16 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "438044",
+    "71"
+   ],
+   "expect": "The 438044 shirts at 71 shirts a minute take 6170 minutes, 102 hours 50 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "293519",
+    "79"
+   ],
+   "expect": "The 293519 shirts at 79 shirts a minute take 3716 minutes, 61 hours 56 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "553407",
+    "20"
+   ],
+   "expect": "The 553407 shirts at 20 shirts a minute take 27671 minutes, 461 hours 11 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "190823",
+    "90"
+   ],
+   "expect": "The 190823 shirts at 90 shirts a minute take 2121 minutes, 35 hours 21 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "233559",
+    "24"
+   ],
+   "expect": "The 233559 shirts at 24 shirts a minute take 9732 minutes, 162 hours 12 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "278979",
+    "78"
+   ],
+   "expect": "The 278979 shirts at 78 shirts a minute take 3577 minutes, 59 hours 37 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "782801",
+    "83"
+   ],
+   "expect": "The 782801 shirts at 83 shirts a minute take 9432 minutes, 157 hours 12 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "395545",
+    "10"
+   ],
+   "expect": "The 395545 shirts at 10 shirts a minute take 39555 minutes, 659 hours 15 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "894022",
+    "55"
+   ],
+   "expect": "The 894022 shirts at 55 shirts a minute take 16255 minutes, 270 hours 55 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "186640",
+    "59"
+   ],
+   "expect": "The 186640 shirts at 59 shirts a minute take 3164 minutes, 52 hours 44 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "900401",
+    "1"
+   ],
+   "expect": "The 900401 shirts at 1 shirt a minute take 900401 minutes, 15006 hours 41 minutes."
+  }
+ ],
+ "errors": [
+  [
+   "boxes",
+   [
+    "0",
+    "25"
+   ]
+  ],
+  [
+   "boxes",
+   [
+    "1000001",
+    "12"
+   ]
+  ],
+  [
+   "boxes",
+   [
+    "2.5",
+    "12"
+   ]
+  ],
+  [
+   "boxes",
+   [
+    "345",
+    "0"
+   ]
+  ],
+  [
+   "boxes",
+   [
+    "345",
+    "1001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "0",
+    "30"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "345",
+    "0"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "345",
+    "100001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "345",
+    "1.5"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "1000001",
+    "30"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "118.75",
+    "345"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "100001",
+    "118.75",
+    "345"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "14",
+    "0",
+    "345"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "14",
+    "118.755",
+    "345"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "14",
+    "118.75",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "0",
+    "6"
+   ]
+  ],
+  [
+   "time",
+   [
+    "345",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "345",
+    "101"
+   ]
+  ],
+  [
+   "time",
+   [
+    "345",
+    "6.5"
+   ]
+  ],
+  [
+   "time",
+   [
+    "1000001",
+    "5"
+   ]
+  ]
+ ]
+}
